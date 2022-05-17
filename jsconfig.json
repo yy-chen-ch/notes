@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"],
+        "@assets/*": ["src/assets/*"],
+        "@scss/*": ["src/assets/scss/*"],
+        "@svg/*": ["src/assets/svg/*"],
+        "@common/*": ["src/common/*"],
+        "@cmp/*": ["src/components/*"],
+        "@views/*": ["src/views/*"],
+      },
+      // "target": "ES6",
+      // "module": "commonjs",
+      "allowSyntheticDefaultImports": true,
+      "jsx": "preserve",
+    },
+    "include": ["src/*/*/*", "src/*/*"],
+    "exclude": ["node_modules"],
+    
+  }
